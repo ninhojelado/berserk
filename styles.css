@@ -1,0 +1,125 @@
+body {
+    font-family: 'Montserrat', sans-serif ; 
+    background-color: rgb(222, 222, 222); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 110vh; 
+    margin: 0; 
+    padding: 0;
+    background-image: url('imagens/059d5d88f262e1b9a2db527111e89426.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.head1 {
+    font-size: 2.5rem; 
+    color: #a50a1f; 
+    letter-spacing: 2rem; 
+    margin-top: 10px; 
+    justify-content: center;
+}
+
+
+header {
+    width: 95%; /* O cabeçalho ocupa toda a largura */
+    background-color: #f0f0f000; /* Cor de fundo do cabeçalho */
+    display: flex; /* Usamos flexbox para melhor layout */
+    justify-content: flex-end; /* Alinha os elementos para a direita */
+    align-items: center; /* Centraliza os elementos verticalmente */
+}
+  
+  .search {
+    background-color: #05438ad3;
+    display: flex;
+    align-items: center;
+    border: 0.3px solid #152c50; /* Borda sólida para delimitar o campo */
+    border-radius: 2px;
+    padding: 3px;
+  }
+  
+  .search input {
+    background: #365a7b78;
+    border: none; /* Remove a borda interna para um visual mais limpo */
+    padding: 10px;
+    flex-grow: 1; /* Permite que o campo de entrada ocupe todo o espaço disponível */
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px; /* Unifica o raio das bordas */
+    background-color: #2e4263ce;
+    color: #f5f7f8dc;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0a1d3274;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  }
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 65rem; /* Largura máxima da caixa de resultados */
+    height: 50vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 0.5rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.8rem; 
+}
+
+/* Estiliza cada item de resultado */
+.personagem {
+    background: #92c2d8b9; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; 
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.sinopse {
+    background: #92c2d8b9; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; 
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.resultados-personagens h* {
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.resultados-pesquisa a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #000000; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.resultados-pesquisa a:hover {
+    text-decoration:underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.sinopse {
+    color: #000000; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #324f5ac5;
+    color: #c4c4c4; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 60%; /* Largura total da página */
+    position:relative; /* Posiciona o rodapé */
+    bottom: 0%; /* Alinha ao fundo da página */
+    font-size: 0.8rem; /* Tamanho da fonte */
+    margin: auto;
+}
