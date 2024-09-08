@@ -31,8 +31,8 @@ Imagina um lugar onde você pode pesquisar sobre seus personagens favoritos de B
 
 **Créditos:**
 
-* **Criador:** (Seu nome aqui) - O grande responsável por essa obra de arte.
-* **Fontes de dados:** (Mencione as fontes de dados que você usou para criar a base de dados de personagens)
+* **Criador:** JELADO - O grande responsável por essa obra de arte.
+* **Fontes de dados:** Google Gemini - Wki Fandom
 
 **Licença:**
 
